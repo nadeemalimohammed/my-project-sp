@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Assuming main.css is the main style file -->
+    <title>Nadeem's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
@@ -16,19 +16,17 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
+
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <div class="content">
-            <h1>Hi, I'm <br>
-                <span class="highlight">Nadeem</span>
-            </h1>
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Nadeem</span></h1>
             <h3>Web Developer</h3>
             <p>I create modern, user-friendly websites with HTML, CSS, JavaScript, and React.</p>
         </div>
@@ -37,28 +35,10 @@
         </div>
     </section>
 
-    <section id="about" class="about-section">
-        <div class="about-container">
-            <h1>About Me</h1>
-            <div class="about-content">
-                <p>I’m a passionate web developer focused on building responsive, dynamic, and user-friendly websites.
-                    Currently, I’m exploring modern technologies like React and Node.js to enhance the interactivity and
-                    functionality of web applications. My goal is to continuously learn and refine my skills to deliver
-                    seamless user experiences.</p>
-            </div>
-        </div>
-        <div class="skills">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
-        </div>
-    </section>
-    <!-- Projects Section -->
+
+
     <section id="projects" class="projects-section">
         <h2>Projects</h2>
-
         <div class="card-section">
             <div class="project-card">
                 <img src="./images/project 1.jpg" alt="Project 1">
@@ -75,80 +55,73 @@
                 <h3>Project 3</h3>
                 <p>Project description</p>
             </div>
-
         </div>
-
     </section>
 
-    <!-- Experience Section -->
+    <section id="about" class="about-section">
+        <h1>About Me</h1>
+        <p>I’m a passionate web developer focused on building responsive, dynamic, and user-friendly websites.
+            Currently, I’m exploring modern technologies like React and Node.js to enhance the interactivity and
+            functionality of web applications.</p>
+        <div class="skills">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="JavaScript">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        </div>
+    </section>
     <section id="experience" class="experience-section">
-
+        <h1>Experience</h1>
         <div class="experience-container">
             <div class="experience-box">
-                <img src="consultant-icon.png" alt="Consultant Icon">
                 <h2>Consultant</h2>
-                <p>Immigration Mentors</p>
-                <p>Sep 2019 - June 2024</p>
-                <p>Guided clients through detailed visa application processes, ensuring all requirements were met.
-                    Strengthened my ability to manage complex information and focus on user needs—skills that transfer
-                    well to creating clear, user-centric websites.</p>
+                <h3>Immigration Mentors</h3>
+                <h4>Sep 2019 - June 2024</h4>
+                <p>Managed complex information effectively, prioritizing user needs.</p>
             </div>
             <div class="experience-box">
-                <img src="airplane-icon.png" alt="Quality Engineer Icon">
                 <h2>Quality Engineer</h2>
-                <p>PCC Aerostructures</p>
-                <p>Feb 2017 - Aug 2019</p>
-                <p>Applied strong problem-solving and analytical skills to ensure product quality and process
-                    efficiency. Developed attention to detail and collaboration abilities, key for building clean and
-                    reliable code.</p>
+                <h3>PCC Aerostructures</h3>
+                <h4>Feb 2017 - Aug 2019</h4>
+                <p>Optimized processes to ensure quality and efficiency</p>
             </div>
         </div>
-        <div>
-            <h1>Experience</h1>
-        </div>
-
     </section>
-    <!-- Education Section -->
-    <section class="education-section">
+
+    <section class=" education">
         <h1>Education</h1>
         <div class="education-container">
             <div class="education-box">
                 <h2>Bachelor's</h2>
-                <p>Electrical And Electronics Engineering</p>
+                <h4>Electrical & Electronics Engineering</h4>
                 <p>Osmania University</p>
             </div>
             <div class="education-box">
                 <h2>Post-Graduation</h2>
-                <p>Quality Engineering Management</p>
+                <h4>Quality Engineering Management</h4>
                 <p>Lambton College</p>
             </div>
             <div class="education-box">
                 <h2>Post-Graduation</h2>
-                <p>Web-Development</p>
+                <h4>Web-Development</h4>
                 <p>George Brown College</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact" class="contact-section">
-        <div>
-            <h2>Contact</h2>
-        </div>
-
-        <div>
-            <form class="contact-form">
-                <label for="name">Name</label>
-                <input type="text" id="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
-                <label for="message">Message</label>
-                <textarea id="message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-
-
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
     </section>
 
     <footer>
@@ -163,9 +136,7 @@
                 <i class="fas fa-envelope"></i>
             </a>
         </div>
-        <div>
-            <p>&copy; 2024 Nadeem Ali Mohammed</p>
-        </div>
+        <p>&copy; 2024 Nadeem Ali Mohammed</p>
     </footer>
 </body>
 
