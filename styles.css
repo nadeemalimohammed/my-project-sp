@@ -35,7 +35,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #0071e3;
+  color: #142138;
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -83,6 +83,7 @@ nav ul li a:hover {
 .projects-section {
   padding: 80px 40px;
   text-align: center;
+  background-color: #F5F4F1;
 }
 
 .projects-section h2 {
@@ -131,15 +132,15 @@ nav ul li a:hover {
 
 
 .about-section {
-  padding: 40px 40px;
+  padding: 80px 40px;
   text-align: center;
-  
+  background-color: #142138;
 }
 
 .about-section h1 {
   font-size: 36px;
   margin-bottom: 20px;
-  
+  color: #F5F4F1;
 }
 
 .about-section p {
@@ -147,6 +148,7 @@ nav ul li a:hover {
   margin: 0 auto;
   font-size: 18px;
   line-height: 1.6;
+  color: #F5F4F1;
 }
 
 .skills {
@@ -154,24 +156,23 @@ nav ul li a:hover {
   justify-content: center;
   padding: 20px;
   margin: 50px 200px;
-  display: flex;
-  justify-content: center;
 }
 
 .skills img {
   width: 50px;
   margin: 0 50px;
-  
+
 }
 
 .experience-section {
-  padding: 40px;
+  padding: 80px 40px;
   text-align: center;
+  background-color: #F5F4F1;
+
 }
 
 .experience-section h1 {
   font-size: 36px;
-  margin-bottom: 30px;
 }
 
 .experience-container {
@@ -191,61 +192,57 @@ nav ul li a:hover {
   height: auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.experience-box h2{
+
+.experience-box h2 {
   padding: 10px;
 }
-.experience-box h3{
+
+.experience-box h3 {
   padding: 5px;
 }
-.experience-box h4{
+
+.experience-box h4 {
   padding: 10px;
 }
 
-
-.education {
-  padding: 80px 40px;
+.education-section {
   text-align: center;
-  
+  padding: 80px 40px;
 }
-
-.education h1 {
+.education-section h1 {
   font-size: 36px;
   margin-bottom: 30px;
 }
 
 .education-container {
-  padding: 40px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .education-box {
-  background-color: #f9f9f9;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
-  max-width: 400px;
+  flex: 0 1 30%;
+  max-width: 300px;
+}
+
+.education-box img {
   width: 100%;
   height: auto;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.education-box h2{
-  padding: 10px;
-}
-.education-box h4{
-  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-section {
-  padding: 40px;
+  padding: 80px 40px;
   text-align: center;
+  background-color: #142138;
 }
 
 .contact-section h2 {
   font-size: 36px;
   margin-bottom: 20px;
+  color: #F5F4F1;
 }
 
 .contact-form {
@@ -257,6 +254,8 @@ nav ul li a:hover {
 
 .contact-form label {
   margin: 10px 0 5px;
+  color: #F5F4F1;
+  text-align: left;
 }
 
 .contact-form input,
@@ -271,6 +270,7 @@ nav ul li a:hover {
   background-color: #0071e3;
   color: #fff;
   padding: 10px;
+  margin-top: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -294,7 +294,7 @@ footer {
 }
 
 .social-icons a {
-  color: #0071e3;
+  color: #142138;
   margin: 0 10px;
   font-size: 30px;
   transition: color 0.3s;
@@ -306,54 +306,89 @@ footer {
 
 @media (max-width: 768px) {
   .hero {
-      flex-direction: column;
-      text-align: center;
+    flex-direction: column;
+    text-align: center;
   }
 
   .hero-content {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   .profile-pic {
-      margin-top: 20px;
+    margin-top: 20px;
   }
 
   .skills {
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 50px 200px;
   }
+  .skills img {
+    width: 50px;
+    margin: 20px;
+  
+  }
+
 }
 
 @media (max-width: 480px) {
   header {
-      flex-direction: column;
-      align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   nav ul {
-      flex-direction: column;
-      align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .hero-content h1 {
-      font-size: 32px;
+    font-size: 32px;
   }
 
   .hero-content h3 {
-      font-size: 20px }
-  
+    font-size: 20px
+  }
+
   .hero-content p {
-      font-size: 16px;
+    font-size: 16px;
   }
-  
-  .about-section h1, .projects-section h2, .experience-section h1, .education-section h1, .contact-section h2 {
-      font-size: 28px;
+
+  .about-section h1,
+  .projects-section h2,
+  .experience-section h1,
+  .education-section h1,
+  .contact-section h2 {
+    font-size: 28px;
   }
-  
-  .project-card, .experience-box, .education-box {
-      max-width: 90%;
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
   }
+  .skills img {
+    width: 50px;
+    margin: 20px;
   
+  }
+
+  .project-card,
+  .experience-box,
+  .education-box {
+    max-width: 90%;
+  }
+
+  .education-box {
+    flex: 0 1 100%;
+  }
+
   .contact-form {
-      max-width: 100%;
+    max-width: 100%;
   }
 }
