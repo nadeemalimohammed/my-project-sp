@@ -50,6 +50,7 @@ nav ul li a:hover {
   align-items: center;
   padding: 100px 40px;
   text-align: left;
+  min-height: 100vh;
 }
 
 .hero-content {
@@ -132,7 +133,7 @@ nav ul li a:hover {
 
 
 .about-section {
-  padding: 80px 40px;
+  padding: 150px 40px;
   text-align: center;
   background-color: #142138;
 }
@@ -154,7 +155,7 @@ nav ul li a:hover {
 .skills {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
   margin: 50px 200px;
 }
 
@@ -234,7 +235,7 @@ nav ul li a:hover {
 }
 
 .contact-section {
-  padding: 80px 40px;
+  padding:  40px;
   text-align: center;
   background-color: #142138;
 }
@@ -294,8 +295,8 @@ footer {
 }
 
 .social-icons a {
-  color: #142138;
-  margin: 0 10px;
+  color: #f6f6f7;
+  margin: 20px 10px;
   font-size: 30px;
   transition: color 0.3s;
 }
