@@ -9,7 +9,7 @@ function Hero() {
         <p>Welcome to my personal portfolio website.</p>
       </div>
       <div className="profile-pic">
-        <img src="/images/profile-pic.png" alt="Profile" />
+        <img src="%PUBLIC_URL%/images/profile-pic.png" alt="Profile" />
       </div>
     </section>
   );
